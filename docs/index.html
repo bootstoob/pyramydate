@@ -27,6 +27,7 @@
             display: flex;
             justify-content: space-around;
         }
+
         .container>.row>* {
             padding: 1%;
             margin: 1%;
@@ -39,7 +40,6 @@
         .img-hover:hover {
             transform: scale(1.1);
         }
-
     </style>
 </head>
 
@@ -82,8 +82,32 @@
         </div>
     </nav>
 
-    <h1>Selecciona la pirámide a la quieras entrar</h1>
-  
+    <div>
+        <h1>Selecciona la pirámide a la quieras entrar</h1>
+    </div>
+
+    <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
 
     <div class="container container-fluid">
         <div class="row">
