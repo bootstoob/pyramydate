@@ -32,10 +32,16 @@
             padding: 1%;
             margin: 1%;
         }
-        .container-fluid{
+
+        .container-fluid {
             display: flex;
             justify-content: center;
+            flex-direction: column;
         }
+        .container-fluid>* {
+            margin: 1%;
+        }
+
         .img-hover {
             transition: transform 0.3s;
         }
@@ -86,15 +92,17 @@
     </nav>
 
     <div class="container-fluid">
-        <h1>Selecciona la pirámide a la quieras entrar</h1>
-            <div class="row">
-                <div class="card img-fluid">
-                    <div class="card-body">
-                        <h1>Selecciona la pirámide a la quieras entrar</h1>
-                    </div>
+        <div>
+            <h1>Selecciona la pirámide a la quieras entrar</h1>
+        </div>
+        <div class="row">
+            <div class="card img-fluid">
+                <div class="card-body">
+                    <h1>Selecciona la pirámide a la quieras entrar</h1>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="breadcrumb">
