@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cuadrado Dividido en 7 Secciones</title>
   <style>
-
     .container {
       display: flex;
       justify-content: center;
@@ -14,22 +13,44 @@
 
     .div-table {
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
+      justify-content: flex-start;
       margin-right: 1%;
     }
 
-    .cuadrado {
-      width: 200px;
+
+    .fila {
+      display: flex;
+      flex-direction: column;
       height: 200px;
+    }
+
+    .fila-div {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      align-items: center;
+      height: 15%;
+    }
+
+    .div-p {
+      height: 15%;
+      display: flex;
+      align-items: center;
+    }
+
+    .div-p p {
+      margin: 0;
+    }
+
+    .cuadrado {
       width: 30%;
       position: relative;
-      /* Agregado */
+      align-items: center;
     }
 
     .seccion {
       width: 100%;
-      height: 14.285%; /* Cambiado */
+      height: 15%;
       position: absolute;
       transition: transform 0.3s;
       background: linear-gradient(to top, orange, yellow);
@@ -43,33 +64,29 @@
     .seccion:nth-child(1) {
       top: 0%;
     }
+
     .seccion:nth-child(2) {
       top: 14.285%;
     }
+
     .seccion:nth-child(3) {
       top: 28.57%;
     }
+
     .seccion:nth-child(4) {
       top: 42.85%;
     }
+
     .seccion:nth-child(5) {
       top: 57.14%;
     }
+
     .seccion:nth-child(6) {
       top: 71.42%;
     }
+
     .seccion:nth-child(7) {
       top: 85.71%;
-    }
-    .fila {
-      display: flex;
-      flex-direction: column;
-      height: 10%;
-    }
-    .fila-div {
-      display: flex;
-      flex-direction: row;
-      margin-top: 1%;
     }
 
     .div-h5 {
@@ -81,56 +98,114 @@
 
 <body>
 
-  <div class="div-h5">
-    <h5>Clasificación</h5>
-  </div>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-xs-6 card img-fluid img-hover" style="width: 18rem;">
+        <div class="div-h5">
+          <h5>Clasificación</h5>
+        </div>
 
-  <div class="container">
+        <div class="container">
 
-    <div class="div-table">
-      <div class="fila">
-        <div class="fila-div">
-          <div><p>1.-</p></div>
-          <div><p>Faraón</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>2.-</p></div>
-          <div><p>Diamante</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>3.-</p></div>
-          <div><p>Platino</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>4.-</p></div>
-          <div><p>Oro</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>5.-</p></div>
-          <div><p>Plata</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>6.-</p></div>
-          <div><p>Bronce</p></div>
-        </div>
-        <div class="fila-div">
-          <div><p>7.-</p></div>
-          <div><p>Acólito</p></div>
-        </div>
+          <div class="div-table">
+            <div class="fila">
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>1.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Faraón</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>2.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Diamante</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>3.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Platino</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>4.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Oro</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>5.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Plata</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>6.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Bronce</p>
+                </div>
+              </div>
+              <div class="fila-div">
+                <div class="div-p">
+                  <p>7.-</p>
+                </div>
+                <div class="div-p">
+                  <p>Acólito</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cuadrado">
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+            <div class="seccion"></div>
+          </div>
+
+          
+          
       </div>
     </div>
-
-    <div class="cuadrado">
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-      <div class="seccion"></div>
-    </div>
-
   </div>
+
+        </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
+              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+            </div>
+          </div>
+
+          
+
+<div class="card">
+  <h5 class="card-header">Destacado</h5>
+  <div class="card-body">
+    <h5 class="card-title">Tratamiento especial del título</h5>
+    <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+  </div>
+</div>
+
+
 </body>
 
 </html>
