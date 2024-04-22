@@ -1,4 +1,9 @@
-
+body{
+  margin: 0px;
+}
+.btn-transition {
+  transition: background-color 1s ease;
+}
 .navbar {
   margin-bottom: 1%;
 }
@@ -49,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1%;
+  padding: 1%;
 }
 
 .img-form {
@@ -213,6 +218,34 @@
   align-items: end;
 }
 
+.card-juego{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-head-entrada{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.card-head-salida{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.card-body-juego{
+  display: flex;
+  justify-content: center;
+}
+.div-juego-btn{
+  display: flex;
+  flex-direction: row;
+}
+.div-juego-btn>*{
+  margin: 1%;
+}
+
+
 .footer {
   margin-top: 5%;
   background: linear-gradient(to bottom, #efefef, #fde874);
@@ -227,7 +260,6 @@
   display: flex;
   flex-direction: row;
 }
-
 .foot-row-card {
   display: flex;
   justify-content: center;
