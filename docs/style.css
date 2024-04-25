@@ -245,6 +245,27 @@ body{
   margin: 1%;
 }
 
+.container-perfil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-perfil>*{
+  margin: 1%;
+}
+.user-ficha{
+  width: 85%;
+}
+.user-ficha>*{
+  width: 100%;
+  margin: 1%;
+}
+
+
+
+
+
+
 
 .footer {
   margin-top: 5%;
