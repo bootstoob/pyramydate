@@ -35,3 +35,8 @@ $(document).ready(function(){
       }
     }, 500); 
   });
+
+
+  document.getElementById('nav-titulo').addEventListener('click', function() {
+    window.location.href = './index.html';
+  });
