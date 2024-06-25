@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piramydate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+
+    <div class="head-div nav-titulo">
+      <h1 class="navbar-marca">Piramydate</h1>
+    </div>
+
+    <div class="head-div head-div-logo" location.href='./index.html'>
+      <img class="" src="./assets/logo.svg" alt="Logo">
+    </div>
+
+    <div class="head-div">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesión</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">Cuenta</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Perfil</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Opciones</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#scrollspyHeading5">Cerrar sesión</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- modal de inicio de sesión -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="loginForm">
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Nombre de usuario</label>
+              <input type="text" class="form-control" id="usuario" required>
+            </div>
+            <div class="mb-3">
+              <label for="contrasenya" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="contrasenya" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            <button type="button" id="cancelarBtn" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="galeria-cont">
+
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Contactos</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contain-contac">
+    <aside class="col-md-3">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action" id="messages-list" data-bs-toggle="list" href="#messages"
+          role="tab" aria-controls="messages">Amigos</a>
+        <a class="list-group-item list-group-item-action" id="settings-list" data-bs-toggle="list" href="#settings"
+          role="tab" aria-controls="settings">Contactos interesantes</a>
+        <a class="list-group-item list-group-item-action" id="settings1-list" data-bs-toggle="list" href="#settings1"
+          role="tab" aria-controls="settings1">Otros contactos</a>
+        <a class="list-group-item list-group-item-action" id="settings2-list" data-bs-toggle="list" href="#settings2"
+          role="tab" aria-controls="settings2">Oportunidades</a>
+      </div>
+    </aside>
+
+
+    <div class="" id="nav-tabContent-contMensajes" class="contMensajes">
+
+      <div class="tab-pane fade msg-amigos" id="messages" role="tabpanel" aria-labelledby="messages-list">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+          <div class="accordion" id="accordionExample">
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <img src="./assets/user.png" alt="" class="img-user-cont">
+                  Sergio M.A.
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="card card-entrada">
+                    <div class="card-body card-body-mnsg-entrada">
+                      <h6 class="card-subtitle mb-2 text-muted">14:01</h6>
+                      <p class="card-text">Lamento mucho no poder asistir a la clase. Surgió un imprevisto que me impide
+                        estar presente. Por favor, disculpa las molestias que esto pueda ocasionar y agradezco tu
+                        comprensión.
+                        Saludos.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card card-salida">
+                    <div class="card-body card-body-mnsg-salida">
+                      <h6 class="card-subtitle mb-2 text-muted">15:00</h6>
+                      <p class="card-text">OOHH no pasa nada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <img src="./assets/user.png" alt="" class="img-user-cont">
+                  El Butacas
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Este mensaje es MUY urgente.</strong> Por favor visita nuestro enlace para poder acceder a más
+                  información sobre nuestro producto <code>www.anunciosgratis.eu</code>, muchisimas gracias por las
+                  molestias y por atender nuestro mensaje, espero que sea de su agrado y quedo a disposición para
+                  sulucionar cualquier consilta que pueda surjir.
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <img src="./assets/user.png" alt="" class="img-user-cont">
+                A.M. Oigres
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <div class="card card-entrada">
+                  <div class="card-body card-body-mnsg-entrada">
+                    <h6 class="card-subtitle mb-2 text-muted">20:51</h6>
+                    <p class="card-text">
+                      hey! what's up?
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card card-salida">
+                  <div class="card-body card-body-mnsg-salida">
+                    <h6 class="card-subtitle mb-2 text-muted">20:52</h6>
+                    <p class="card-text">hi good morning</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="tab-pane fade msg-otros" id="settings1" role="tabpanel" aria-labelledby="settings1-list">
+        <div class="card card-contac">
+          <img src="./assets/user.png" alt="" class="img-user-cont">
+          <div class="card-body">
+            <h5 class="card-title">StoobsBot S.A.</h5>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade msg-oport" id="settings2" role="tabpanel" aria-labelledby="settings2-list">
+        <div class="card card-contac">
+          <img src="./assets/user.png" alt="" class="img-user-cont">
+          <div class="card-body">
+            <h5 class="card-title">Venta de Coches</h5>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <footer class="footer">
+    <div class="foot-row row">
+      <div class="foot-row-card card img-hover foot-chat" onclick="window.location.href='./chat.html'">
+        <img src="./assets/icons/triangle.svg" class="img-foot img-fluid img-hover" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">chat</h5>
+        </div>
+      </div>
+      <div class="foot-row-card card img-hover foot-galeria" onclick="window.location.href='./galeria.html'">
+        <img src="./assets/icons/shop.svg" class="img-foot img-fluid" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Galeria</h5>
+        </div>
+      </div>
+      <div class="foot-row-card card img-hover foot-mensages" onclick="window.location.href='./mensajes.html'">
+        <img src="./assets/icons/mail.svg" class="img-foot img-fluid" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Mensajes</h5>
+        </div>
+      </div>
+      <div class="foot-row-card card img-hover foot-perfil" onclick="window.location.href='./perfil.html'">
+        <img src="./assets/icons/contacts.svg" class="img-foot img-fluid" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Perfil</h5>
+        </div>
+      </div>
+      <div class="foot-row-card card img-hover foot-registro" onclick="window.location.href='./perfil.html'">
+        <img src="./assets/icons/settings.svg" class="img-foot img-fluid" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Opciones</h5>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="./js/script.js" defer></script>
+
+  <!-- Bootstrap JavaScript y dependencias -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+</body>
+
+</html>

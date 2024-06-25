@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  background: linear-gradient(to top, rgb(255, 247, 233), rgb(253, 253, 200));
+
+}
+
+.nav-titulo {
+  width: 100%;
+
+}
+
+.navbar-marca {
+  margin: 1%;
+  font-weight: bold;
+  background-image: url('../assets/fondoladrillos.png');
+  color: rgb(0, 0, 0, 0);
+  background-size: cover;
+  background-position-y: center;
+  background-clip: text;
+  --webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
+
+}
+
+.btn-transition {
+  transition: background-color 1s ease;
+}
+
+#navbar-example2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-div {
+  width: 20%;
+}
+
+.head-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-div-logo img {
+  height: 15vh;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.container>.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  margin: 1%;
+}
+
+.card {
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.img-hover {
+  transition: transform 0.3s;
+}
+
+.img-hover:hover {
+  transform: scale(1.1);
+}
+
+.img-hover:hover .land-card-body {
+  background-color: rgb(136, 89, 1);
+  height: 80px;
+  width: 110%;
+}
+
+.img-hover:hover .land-card-body-div-card-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-hover:hover .img-fluid {
+  transform: scale(1.1);
+}
+
+.img-hover img {
+  box-sizing: border-box;
+}
+
+.piramides{
+  margin-top: 1%;
+}
+
+.land-card-body {
+  background: linear-gradient(to top, rgba(249, 233, 207, 0.2), rgba(247, 247, 145, 0.2));
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 20%;
+  height: 50px;
+}
+
+.land-card-body-div-card-text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 99%;
+}
+
+.div-btn-ir-a {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  width: 90%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.img-form {
+  width: 50%;
+}
+
+.div-rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.div-rrss> :first-child {
+  margin-left: -10%;
+}
+
+.rrss-img {
+  height: 50px;
+}
+
+.rrss-img>* {
+  align-items: center;
+  height: 50px;
+  margin: 20px;
+}
+
+
+.img-prod {
+  height: 100px;
+  margin: 2%;
+}
+
+.img-user-juego {
+  height: 50px;
+}
+
+.img-user-perfil {
+  height: 100px;
+}
+
+.progress {
+  width: 100%;
+  margin: auto;
+  margin: 1%;
+}
+.mt-5{
+  margin-top:0px !important;
+}
+
+.div-p p {
+  margin: 0;
+}
+
+.div-h5 {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin-top: 1%;
+}
+
+.div-table-piramide {
+  display: flex;
+  justify-content: center;
+  margin-right: 1%;
+
+}
+
+.piramide-fila {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.piramide-fila-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  height: 15%;
+}
+
+.div-p {
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.piramide-escalones {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  transition: transform 0.3s;
+  background: linear-gradient(to top, orange, yellow);
+}
+
+.seccion:hover {
+  transform: scale(1.1);
+}
+
+.seccion:nth-child(1) {
+  top: 0%;
+  width: 20%;
+}
+
+.seccion:nth-child(2) {
+  top: 14.285%;
+  width: 30%;
+}
+
+.seccion:nth-child(3) {
+  top: 28.57%;
+  width: 40%;
+}
+
+.seccion:nth-child(4) {
+  top: 42.85%;
+  width: 50%;
+}
+
+.seccion:nth-child(5) {
+  top: 57.14%;
+  width: 60%;
+}
+
+.seccion:nth-child(6) {
+  top: 71.42%;
+  width: 70%;
+}
+
+.seccion:nth-child(7) {
+  top: 85.71%;
+  width: 80%;
+}
+
+.galeria .squelet * {
+  margin: 1%;
+}
+
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
+
+
+.row-clasi {
+  padding: 5%;
+  width: 80%;
+}
+
+.tab-content {
+  width: 100%;
+}
+
+.contain-contac {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.card-contac {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/*
+*/
+#nav-tabContent-contMensajes {
+  width: 100%;
+
+}
+
+#messages {
+  margin: 1%;
+  width: 100%;
+}
+
+.img-user-cont {
+  height: 50px;
+  margin-right: 1%;
+}
+
+.juego {
+  padding: 1%;
+}
+
+.card-entrada {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.card-salida {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  align-items: end;
+}
+
+.card-body-mnsg-salida {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+/*
+.col-card-juego{
+  height: 10%;
+  display: flex;
+}
+*/
+.card-juego {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-juego-fotonombre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.card-head-entrada {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-head-salida {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-body-juego {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.div-juego-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-juego-btn>* {
+  margin: 1%;
+}
+
+.div-juego-btn .btn {
+  height: 50%;
+}
+
+.col-card-juego {
+  margin-top: 1%;
+}
+
+
+
+
+.historial-juego {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  perspective: 1000px;
+  padding: 3%;
+}
+.historial-juego-card:hover{
+  transform: rotatey(180deg);
+}
+.historial-juego div{
+  width: 100px;
+}
+.historial-juego-card{
+  position: relative;
+  width: 20%;
+  height: 100px;
+  margin: 1%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.historial-juego-card-front, .historial-juego-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.historial-juego-card-front{
+  color: black;
+  background-color: orange;
+  transform: rotateY(0deg);
+}
+.historial-juego-card-back{
+  color: black;
+  background-color: orangered;
+  transform: rotateY(180deg);
+}
+
+
+.nombreUsu {
+  margin: 1%;
+}
+
+
+.container-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-perfil>* {
+  margin: 1%;
+}
+
+.user-ficha {
+  width: 85%;
+}
+
+.user-ficha>* {
+  width: 100%;
+  margin: 1%;
+}
+#messages{
+  width: 98%;
+}
+
+.msg-interesantes, .msg-otros, .msg-oport {
+ top: -257px;
+ position: relative;
+}
+.msg-otros {
+  top: -694px;
+}
+.msg-oport {
+  top: -1200px;
+}
+.tab-pane {
+  width: 98%;
+  margin: 1%;
+}
+
+.squelet {
+  width: auto;
+  display: flex;
+}
+
+.aptitudes {
+  width: 50%;
+}
+
+.spinner-border {
+  margin: 20%;
+}
+
+.footer {
+  margin-top: 5%;
+  background: linear-gradient(to bottom, #efefef, #fde874);
+}
+
+.foot-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.foot-row-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  margin: 1%;
+}
+
+.img-foot {
+  margin-top: 5%;
+  width: 40%;
+}
+
+.col-perfil {
+  width: 99%;
+}
