@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   margin: 0px;
-  background: linear-gradient(to top, rgb(255, 247, 233), rgb(253, 253, 200));
+  background: linear-gradient(to top, rgb(255, 241, 211), rgb(255, 255, 255));
 
 }
 
@@ -17,6 +17,7 @@ body {
 }
 
 .navbar-marca {
+  font-size: 48px; 
   margin: 1%;
   font-weight: bold;
   background-image: url('../assets/fondoladrillos.png');
@@ -147,7 +148,9 @@ body {
   align-items: center;
   padding: 1%;
 }
-
+.flex-fill {
+  width: 100%;
+}
 .img-form {
   width: 50%;
 }
@@ -515,7 +518,9 @@ body {
 .spinner-border {
   margin: 20%;
 }
-
+.navbar {
+  background: linear-gradient(to top, #efefef, #fde874);
+}
 .footer {
   margin-top: 5%;
   background: linear-gradient(to bottom, #efefef, #fde874);
