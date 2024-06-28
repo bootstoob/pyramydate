@@ -1,0 +1,41 @@
+    1. Introducción
+1.1 Propósito
+    PyraMyDate es un proyecto de entretenimiento social, permitiendo a los usuarios conocer gente y chatear mediante un juego de preguntas y respuestas.
+
+1.2 Alcance
+La plataforma PyraMyDate tendrá un gran alcance en el ámbito social, ya que permitirá a los usuarios interactuar y formar nuevas conexiones de manera lúdica y dinámica. Los usuarios podrán disfrutar de un entorno amigable para conocer personas, que puede expandirse debido a la popularidad de las redes sociales y su fácil conexión.
+
+    2. Descripción General
+2.1 Perspectiva del Producto
+    PyraMyDate es una red social innovadora que permite a los usuarios conocer gente nueva a través de un juego de preguntas y respuestas capaz de crear un entorno divertido.
+
+El sitio web contará con diversas funciones para mejorar la experiencia del usuario. Entre ellas, se destacan:
+
+    Juego de Preguntas y Respuestas: Los usuarios podrán participar en juegos interactivos para conocer a otras personas de manera divertida.
+    Perfiles de Usuario: Cada usuario tendrá un perfil donde podrá mostrar sus intereses, fotos y una breve biografía.
+    Sistema de Chat: Una vez que los usuarios encuentren a alguien interesante a través del juego, podrán iniciar una conversación privada.
+    Sistema de Reputación: Los usuarios podrán calificar a otros usuarios basándose en su experiencia durante el juego.
+
+2.2 Funcionalidad del Producto
+Las principales funcionalidades de PyraMyDate incluyen:
+
+    Juego de Preguntas y Respuestas: El núcleo de la plataforma, donde los usuarios responden preguntas para descubrir compatibilidades con otros usuarios.
+    Creación y Edición de Perfiles: Los usuarios pueden personalizar sus perfiles con información personal y preferencias.
+    Sistema de Mensajería Instantánea: Permite a los usuarios comunicarse una vez que hayan encontrado una conexión a través del juego.
+    Sistema de Reputación y Logros: Para fomentar interacciones positivas y destacar a los usuarios más activos y mejor valorados.
+
+2.3 Suposiciones y Dependencias
+Debido a la facilidad con la que un usuario puede acceder a una web con los medios de hoy en día, asumimos que los requisitos para un usuario son muy bajos. Al mismo tiempo, nos vemos afectados por las condiciones de servicios de las plataformas en las que nos apoyamos, como GitHub para el servicio de hosting, un explorador actualizado, cuentas en redes sociales o Google en caso de implementarse en el proyecto, etc.
+
+El proyecto no dependerá de servicios externos de monetización para las transacciones financieras, aunque se podría financiar mediante anuncios posicionados en determinados espacios reservados en la web.
+
+2.4 Evolución Previsible del Sistema
+Entre las posibles evoluciones del sistema se incluyen:
+
+    Implementación de una Comunidad o Foro: Donde los usuarios puedan compartir sus experiencias, sugerencias y resolver dudas.
+    Mejoras de Diseño y Funcionalidad: Continuar mejorando el diseño de la interfaz y la funcionalidad del sitio web.
+    Aceptación de Criptomonedas: Ampliar opciones de pago para incluir criptomonedas.
+
+Conclusión
+
+PyraMyDate es un proyecto de red social de diseño accesible para conectar personas a través de un juego de preguntas y respuestas de forma innovadora y lúdica. Con sus variadas funcionalidades y la posibilidad de evolución futura, PyraMyDate promete ser una adición valiosa al mundo de las redes sociales.
